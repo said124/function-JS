@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#C4B5A5]">
+    <div class="container m-auto">
+        <header class="w-[1550px]">
+            <nav class="list-none mt-[58px] flex justify-between items-center">
+                <h1 class="font-bold text-3xl">LOGO</h1>
+                <ul class="gap-[88px] flex items-center">
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Portfolio</li>
+                    <button class="wh bg-[#FB982F] w-[131px] h-[41px] font-bold text-sm rounded-md" onclick="white()">LightMode</button>
+                    <button class="bl bg-[black] text-white w-[131px] h-[41px] mr-[41px] font-bold text-sm rounded-md" onclick="dark()">DarkMode</button>
+                </ul>
+            </nav>
+        </header>
+        <div class="header-content mt-[83px] flex">
+            <div class="header-content_text">
+                <h1 class="font-bold text-5xl leading-[70px]">Work that we produce <br> for our clients</h1>
+                <p class="text-[20px] font-medium py-[77px]">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry. Lorem Ipsum has been the <br> industry's standard.</p>
+                <button class="bg-[#FB982F] w-[195px] h-[53px] font-medium text-sm rounded-3xl">Get more details</button>
+            </div>
+            <div class="header-content_img pl-[177px]">
+                <img src="img/Rectangle 24.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
